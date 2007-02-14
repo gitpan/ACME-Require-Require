@@ -1,0 +1,20 @@
+---
+name: ACME-Require-Require
+version: v0.0.1
+author:
+  - 'Robert Boone <rlb@cpan.org>'
+abstract: Disallow the use of use.
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Test::More: 0
+  version: 0
+provides:
+  ACME::Require::Require:
+    file: lib/ACME/Require/Require.pm
+    version: v0.0.1
+generated_by: Module::Build version 0.2806
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
